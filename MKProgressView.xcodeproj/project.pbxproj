@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A91001A221EA302F00315AC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001A121EA302F00315AC6 /* AppDelegate.m */; };
-		A91001A521EA302F00315AC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001A421EA302F00315AC6 /* ViewController.m */; };
-		A91001A821EA302F00315AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91001A621EA302F00315AC6 /* Main.storyboard */; };
 		A91001AA21EA303100315AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91001A921EA303100315AC6 /* Assets.xcassets */; };
 		A91001AD21EA303100315AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91001AB21EA303100315AC6 /* LaunchScreen.storyboard */; };
 		A91001B021EA303100315AC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001AF21EA303100315AC6 /* main.m */; };
 		A91001BA21EA303100315AC6 /* MKProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001B921EA303100315AC6 /* MKProgressViewTests.m */; };
 		A91001C521EA303100315AC6 /* MKProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001C421EA303100315AC6 /* MKProgressViewUITests.m */; };
+		A91001D921EA30B900315AC6 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001D821EA30B900315AC6 /* MainTableViewController.m */; };
+		A91001DC21EA32BF00315AC6 /* VoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001DB21EA32BF00315AC6 /* VoteViewController.m */; };
+		A91001E021EA34E600315AC6 /* VoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A91001DF21EA34E600315AC6 /* VoteTableViewCell.m */; };
+		A91EB1FA21EA36EF008EE2A6 /* VotePorgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A91EB1F921EA36EF008EE2A6 /* VotePorgressView.m */; };
+		A91EB1FD21EA3D32008EE2A6 /* VoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A91EB1FC21EA3D32008EE2A6 /* VoteModel.m */; };
+		A920099121EC60F800FCC926 /* CircleProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A920099021EC60F800FCC926 /* CircleProgressVC.m */; };
+		A920099821EC659600FCC926 /* SectorProgressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A920099721EC659600FCC926 /* SectorProgressVC.m */; };
+		A920099B21EC65BC00FCC926 /* SectorProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A920099A21EC65BC00FCC926 /* SectorProgressView.m */; };
+		A920099E21EC72A200FCC926 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A920099D21EC72A200FCC926 /* CircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +45,6 @@
 		A910019D21EA302F00315AC6 /* MKProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91001A021EA302F00315AC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A91001A121EA302F00315AC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A91001A321EA302F00315AC6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A91001A421EA302F00315AC6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A91001A721EA302F00315AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A91001A921EA303100315AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A91001AC21EA303100315AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A91001AE21EA303100315AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,24 @@
 		A91001C021EA303100315AC6 /* MKProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A91001C421EA303100315AC6 /* MKProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKProgressViewUITests.m; sourceTree = "<group>"; };
 		A91001C621EA303100315AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91001D721EA30B900315AC6 /* MainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		A91001D821EA30B900315AC6 /* MainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		A91001DA21EA32BF00315AC6 /* VoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteViewController.h; sourceTree = "<group>"; };
+		A91001DB21EA32BF00315AC6 /* VoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteViewController.m; sourceTree = "<group>"; };
+		A91001DE21EA34E600315AC6 /* VoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteTableViewCell.h; sourceTree = "<group>"; };
+		A91001DF21EA34E600315AC6 /* VoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteTableViewCell.m; sourceTree = "<group>"; };
+		A91EB1F821EA36EF008EE2A6 /* VotePorgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VotePorgressView.h; sourceTree = "<group>"; };
+		A91EB1F921EA36EF008EE2A6 /* VotePorgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VotePorgressView.m; sourceTree = "<group>"; };
+		A91EB1FB21EA3D32008EE2A6 /* VoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteModel.h; sourceTree = "<group>"; };
+		A91EB1FC21EA3D32008EE2A6 /* VoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteModel.m; sourceTree = "<group>"; };
+		A920098F21EC60F800FCC926 /* CircleProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressVC.h; sourceTree = "<group>"; };
+		A920099021EC60F800FCC926 /* CircleProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressVC.m; sourceTree = "<group>"; };
+		A920099621EC659600FCC926 /* SectorProgressVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectorProgressVC.h; sourceTree = "<group>"; };
+		A920099721EC659600FCC926 /* SectorProgressVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectorProgressVC.m; sourceTree = "<group>"; };
+		A920099921EC65BC00FCC926 /* SectorProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectorProgressView.h; sourceTree = "<group>"; };
+		A920099A21EC65BC00FCC926 /* SectorProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectorProgressView.m; sourceTree = "<group>"; };
+		A920099C21EC72A200FCC926 /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		A920099D21EC72A200FCC926 /* CircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +123,14 @@
 		A910019F21EA302F00315AC6 /* MKProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				A920099321EC655000FCC926 /* 波浪进度 */,
+				A920099521EC655000FCC926 /* 环形进度 */,
+				A920099221EC655000FCC926 /* 扇形进度 */,
+				A920099421EC655000FCC926 /* 投票 进度 */,
 				A91001A021EA302F00315AC6 /* AppDelegate.h */,
 				A91001A121EA302F00315AC6 /* AppDelegate.m */,
-				A91001A321EA302F00315AC6 /* ViewController.h */,
-				A91001A421EA302F00315AC6 /* ViewController.m */,
-				A91001A621EA302F00315AC6 /* Main.storyboard */,
+				A91001D721EA30B900315AC6 /* MainTableViewController.h */,
+				A91001D821EA30B900315AC6 /* MainTableViewController.m */,
 				A91001A921EA303100315AC6 /* Assets.xcassets */,
 				A91001AB21EA303100315AC6 /* LaunchScreen.storyboard */,
 				A91001AE21EA303100315AC6 /* Info.plist */,
@@ -130,6 +155,74 @@
 				A91001C621EA303100315AC6 /* Info.plist */,
 			);
 			path = MKProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		A91EB1F621EA3658008EE2A6 /* voteCell */ = {
+			isa = PBXGroup;
+			children = (
+				A920098E21EC344000FCC926 /* Model */,
+				A91EB1F721EA36DA008EE2A6 /* voteView */,
+				A91001DE21EA34E600315AC6 /* VoteTableViewCell.h */,
+				A91001DF21EA34E600315AC6 /* VoteTableViewCell.m */,
+			);
+			path = voteCell;
+			sourceTree = "<group>";
+		};
+		A91EB1F721EA36DA008EE2A6 /* voteView */ = {
+			isa = PBXGroup;
+			children = (
+				A91EB1F821EA36EF008EE2A6 /* VotePorgressView.h */,
+				A91EB1F921EA36EF008EE2A6 /* VotePorgressView.m */,
+			);
+			path = voteView;
+			sourceTree = "<group>";
+		};
+		A920098E21EC344000FCC926 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A91EB1FB21EA3D32008EE2A6 /* VoteModel.h */,
+				A91EB1FC21EA3D32008EE2A6 /* VoteModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A920099221EC655000FCC926 /* 扇形进度 */ = {
+			isa = PBXGroup;
+			children = (
+				A920099621EC659600FCC926 /* SectorProgressVC.h */,
+				A920099721EC659600FCC926 /* SectorProgressVC.m */,
+				A920099921EC65BC00FCC926 /* SectorProgressView.h */,
+				A920099A21EC65BC00FCC926 /* SectorProgressView.m */,
+			);
+			path = "扇形进度";
+			sourceTree = "<group>";
+		};
+		A920099321EC655000FCC926 /* 波浪进度 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "波浪进度";
+			sourceTree = "<group>";
+		};
+		A920099421EC655000FCC926 /* 投票 进度 */ = {
+			isa = PBXGroup;
+			children = (
+				A91EB1F621EA3658008EE2A6 /* voteCell */,
+				A91001DA21EA32BF00315AC6 /* VoteViewController.h */,
+				A91001DB21EA32BF00315AC6 /* VoteViewController.m */,
+			);
+			path = "投票 进度";
+			sourceTree = "<group>";
+		};
+		A920099521EC655000FCC926 /* 环形进度 */ = {
+			isa = PBXGroup;
+			children = (
+				A920098F21EC60F800FCC926 /* CircleProgressVC.h */,
+				A920099021EC60F800FCC926 /* CircleProgressVC.m */,
+				A920099C21EC72A200FCC926 /* CircleProgressView.h */,
+				A920099D21EC72A200FCC926 /* CircleProgressView.m */,
+			);
+			path = "环形进度";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +330,6 @@
 			files = (
 				A91001AD21EA303100315AC6 /* LaunchScreen.storyboard in Resources */,
 				A91001AA21EA303100315AC6 /* Assets.xcassets in Resources */,
-				A91001A821EA302F00315AC6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A91001A521EA302F00315AC6 /* ViewController.m in Sources */,
+				A91EB1FD21EA3D32008EE2A6 /* VoteModel.m in Sources */,
+				A920099B21EC65BC00FCC926 /* SectorProgressView.m in Sources */,
+				A91001DC21EA32BF00315AC6 /* VoteViewController.m in Sources */,
 				A91001B021EA303100315AC6 /* main.m in Sources */,
 				A91001A221EA302F00315AC6 /* AppDelegate.m in Sources */,
+				A920099E21EC72A200FCC926 /* CircleProgressView.m in Sources */,
+				A91001E021EA34E600315AC6 /* VoteTableViewCell.m in Sources */,
+				A920099121EC60F800FCC926 /* CircleProgressVC.m in Sources */,
+				A91001D921EA30B900315AC6 /* MainTableViewController.m in Sources */,
+				A920099821EC659600FCC926 /* SectorProgressVC.m in Sources */,
+				A91EB1FA21EA36EF008EE2A6 /* VotePorgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +400,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A91001A621EA302F00315AC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A91001A721EA302F00315AC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A91001AB21EA303100315AC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

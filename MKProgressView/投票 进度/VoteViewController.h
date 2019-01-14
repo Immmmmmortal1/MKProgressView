@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VoteViewController.h
 //  MKProgressView
 //
 //  Created by shuxia on 2019/1/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface VoteViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
